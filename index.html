@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Khmer:wght@100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="arrayMethodStyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script src="arrayMethodJS.js"></script>
+<body>
+    <div class="container">
+       <div class="contaner-input">
+        <div>បញ្ចូលនៅទីនេះ*</div>
+        <input type="text" id="input-arr" placeholder="Please input" >
+       </div>
+       <div class="container-buttonArr">
+        <button id="button-push" onclick="onpush()">Push</button>
+        <button id="button-pop" onclick="onpop()">Pop</button>
+        <button id="button-unshift" onclick="onunshift()">Unshift</button>
+        <button id="button-shift" onclick="onpshift()">Shift</button>
+        <button id="button-sort-asc" onclick="onshort_asc()">Sort Asc</button>
+        <button id="button-sort-desc" onclick="onshort_desc()">Sort Desc</button>
+       </div>
+       <hr>
+        <div class="container-control">
+        <div class="dispay-box">
+                <div id="arrCount"></div>
+                </div>
+        <div class="container-search">
+            <div class="boxsearch">
+                <input type="text" id="searchArr" placeholder="Search input...">
+                <button id="button-search" onclick="onsearcharr()">Search</button>
+            </div>
+            <div class="container-search-DS">
+                <div id="arrCountSearch"></div>
+            </div>
+        </div>
+    </div>
+    </div>
+            
+</body>
+</html>

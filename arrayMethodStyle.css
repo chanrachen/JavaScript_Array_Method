@@ -1,0 +1,157 @@
+
+*{
+    font-family: "Noto Serif Khmer", serif;
+    
+
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.159);
+    gap: 100%;
+    padding: 10px;
+}
+.container .container-buttonArr{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.container .contaner-input{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+    
+}
+.container .contaner-input #input-arr{
+    width: 200px;
+    height: 30px;
+    border-radius: 6px;
+    border: none;
+    padding: 5px;
+
+}
+.container .container-buttonArr #button-push{
+    background-color: red;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+}
+.container .container-buttonArr #button-push:hover{
+    opacity: 0.5;
+}
+.container .container-buttonArr #button-pop{
+    background-color: rgb(200, 105, 105);
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+}
+.container .container-buttonArr #button-pop:hover{
+    opacity: 0.5;
+}
+.container .container-buttonArr #button-unshift{
+    background-color: rgb(149, 56, 56);
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+}
+.container .container-buttonArr #button-unshift:hover{
+    opacity: 0.5;
+}
+.container .container-buttonArr #button-shift{
+    background-color: red;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+}
+.container .container-buttonArr #button-shift:hover{
+    opacity: 0.5;
+}
+.container .container-buttonArr #button-sort-asc{
+    background-color: rgb(149, 183, 46);
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+}
+.container .container-buttonArr #button-sort-asc:hover{
+    opacity: 0.5;
+}
+.container .container-buttonArr #button-sort-desc{
+    background-color: rgb(12, 75, 177);
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+}
+.container .container-buttonArr #button-sort-desc:hover{
+    opacity: 0.5;
+}
+.container .container-dispay{
+    width: 100%;
+}
+.container .container-dispay #display-arr{
+    width: 200px;
+    height: 20px;
+    display: flex;
+    
+}
+.container .dispay-box{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(249, 249, 249);
+    border-radius: 10px;
+}
+.container .container-control{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.container .container-control .container-search button{
+    background-color: rgb(149, 56, 56);
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+}
+.container .container-control .container-search #searchArr{
+    width: 200px;
+    height: 20px;
+    border-radius: 6px;
+    border: none;
+    padding: 5px;
+    
+}
+.container .container-control .container-search .container-search-DS {
+    height: 160px;
+    width: 290px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.container .container-control .container-search .boxsearch{
+    display: flex;
+    gap: 10px;
+}
+.container .container-control .container-search{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
